@@ -14,9 +14,14 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 Create a div in Square w/ height/ width/ border
 Map over the Square
 Used flex to create grid
-Pass value from the array in State to Sqaure
+Pass value from the array in State to Square
 - 
 - As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
+Branch create = index-position
+Passed index to Square
+Created a handleClick in Square
+Created handleGamePlay func in App.js
+Index is being output on alret
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
 - As a user, if I select the winning square the question mark will become a treasure emoji and if I select the losing square the question mark will become a bomb emoji.
 - As a user, I can click on a “Play Again” button that will restart the game.
